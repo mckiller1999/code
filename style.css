@@ -206,6 +206,7 @@ header {
     max-width: 900px;
     position: relative;
     margin: auto;
+    border: solid var(--main-color) 2px;
 }
 
 
@@ -283,11 +284,12 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     /* canh khoảng cách giữa các box */
-    gap: 1.5rem
+    gap: 1.5rem;
 }
 
 .product-box {
     position: relative;
+    border: solid var(--main-color) 2px;
 }
 
 .product-box:hover {
